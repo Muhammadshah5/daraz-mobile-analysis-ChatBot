@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #333;
+}
+
+.result p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+/* ... (existing styles remain unchanged) ... */
+
+table.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+table.styled-table thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+}
+
+table.styled-table tbody td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+table.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.styled-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
